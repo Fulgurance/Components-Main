@@ -1,0 +1,31 @@
+{
+  "port": "Components-Main",
+  "name": "Init",
+  "version": "0.2.0",
+  "architectures": ["x86_64"],
+  "description": "Virtual installer to set the default init system",
+  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/Init",
+  "installedFiles": [],
+  "dependencies": [],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Openrc",
+      "description": "Enable openrc support",
+      "active": true,
+      "dependencies": [
+        {
+          "port": "InitSystems-Main",
+          "name": "Openrc",
+          "version": ">=0.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [["Openrc","Systemd"]],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
