@@ -1,0 +1,31 @@
+{
+  "port": "Components-Main",
+  "name": "Architecture",
+  "version": "0.2.0",
+  "architectures": ["x86_64"],
+  "description": "Virtual installer to set the default architecture",
+  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/Architecture",
+  "installedFiles": [],
+  "dependencies": [],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "X86_64",
+      "description": "Enable x86_64 support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ArchitectureComponents-Main",
+          "name": "X86_64",
+          "version": ">=0.0.0",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
