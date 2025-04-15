@@ -22,7 +22,7 @@
       "active": true,
       "dependencies": [
         {
-          "port": "SystemLanguages-Main",
+          "port": "LanguageComponents-Main",
           "name": "English",
           "version": ">=0.0.0",
           "options": []
