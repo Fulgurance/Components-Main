@@ -6,24 +6,16 @@
   "description": "Virtual installer to set the default architecture",
   "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/Architecture",
   "installedFiles": [],
-  "dependencies": [],
-  "kernelDependencies": [],
-  "options": [
+  "dependencies": [
     {
+      "port": "ArchitectureComponents-Main",
       "name": "X86",
-      "description": "Enable x86_64 support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "ArchitectureComponents-Main",
-          "name": "X86",
-          "version": ">=0.0.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
+      "version": ">=0.0.0",
+      "options": []
     }
   ],
+  "kernelDependencies": [],
+  "options": [],
   "uniqueDependencies": [["@ArchitectureComponents-Main:X86"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
