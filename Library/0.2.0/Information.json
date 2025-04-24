@@ -1,0 +1,23 @@
+{
+  "port": "Components-Main",
+  "name": "Library",
+  "version": "0.2.0",
+  "architectures": ["x86_64"],
+  "description": "Virtual installer to set the default library",
+  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/Library",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "LibraryCComponents-Main",
+      "name": "Glibc",
+      "version": ">=0.0.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [["@LibraryComponents-Main:Glibc"]],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
