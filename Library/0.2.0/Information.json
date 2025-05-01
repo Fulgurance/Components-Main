@@ -8,7 +8,7 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "LibraryCComponents-Main",
+      "port": "ProgrammingTools-Main",
       "name": "Glibc",
       "version": ">=0.0.0",
       "options": []
@@ -16,7 +16,7 @@
   ],
   "kernelDependencies": [],
   "options": [],
-  "uniqueDependencies": [["@LibraryComponents-Main:Glibc"]],
+  "uniqueDependencies": [["@ProgrammingTools-Main:Glibc"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
