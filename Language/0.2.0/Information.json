@@ -8,8 +8,8 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "LanguageComponents-Main",
-      "name": "Default",
+      "port": "ProgrammingTools-Main",
+      "name": "Glibc",
       "version": ">=0.0.0",
       "options": []
     }
