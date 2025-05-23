@@ -8,21 +8,15 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "Kernels-Main",
-      "name": "Linux-Kernel-Sources",
-      "version": ">=0.0.0",
-      "options": []
-    },
-    {
-      "port": "Kernels-Main",
-      "name": "Selinux-Kernel-Sources",
+      "port": "Components-Main",
+      "name": "Kernel-Sources",
       "version": ">=0.0.0",
       "options": []
     }
   ],
   "kernelDependencies": [],
   "options": [],
-  "uniqueDependencies": [["@Kernels-Main:Linux-Kernel-Sources","@Kernels-Main:Selinux-Kernel-Sources"]],
+  "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
