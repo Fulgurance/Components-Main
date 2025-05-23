@@ -1,9 +1,2 @@
-class Target < ISM::ComponentSoftware
-
-    def install
-        super
-
-        #Build and install the default selected kernel
-    end
-
+class Target < ISM::KernelSoftware
 end
