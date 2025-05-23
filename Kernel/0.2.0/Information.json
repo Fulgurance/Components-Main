@@ -12,6 +12,18 @@
       "name": "Kernel-Sources",
       "version": ">=0.0.0",
       "options": []
+    },
+    {
+      "port": "Utilities-Main",
+      "name": "Bc",
+      "version": ">=0.0.0",
+      "options": []
+    },
+    {
+      "port": "Archivers-Main",
+      "name": "Cpio",
+      "version": ">=0.0.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
