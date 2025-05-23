@@ -3,9 +3,7 @@ class Target < ISM::ComponentSoftware
     def install
         super
 
-        recordSelectedKernel
-        updateKernelSymlinks
-        updateKernelOptionsDatabase
+        #Build and install the default selected kernel
     end
 
 end
