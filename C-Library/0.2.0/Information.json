@@ -1,10 +1,10 @@
 {
   "port": "Components-Main",
-  "name": "Library",
+  "name": "C-Library",
   "version": "0.2.0",
   "architectures": ["x86_64"],
-  "description": "Virtual installer to set the default library",
-  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/Library",
+  "description": "Virtual installer to set the default C library for the system",
+  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library",
   "installedFiles": [],
   "dependencies": [
     {
