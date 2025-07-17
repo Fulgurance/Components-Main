@@ -12,11 +12,17 @@
       "name": "Glibc",
       "version": ">=0.0.0",
       "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Musl",
+      "version": ">=0.0.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
   "options": [],
-  "uniqueDependencies": [["@ProgrammingTools-Main:Glibc"]],
+  "uniqueDependencies": [["@ProgrammingTools-Main:Glibc","@ProgrammingTools-Main:Musl"]],
   "uniqueOptions": [],
   "selectedDependencies": [],
   "allowCodependencies": []
