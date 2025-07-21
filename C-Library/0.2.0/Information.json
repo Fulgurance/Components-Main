@@ -49,6 +49,20 @@
         }
       ],
       "kernelDependencies": []
+    },
+    {
+      "name": "Musl-Fts",
+      "description": "Enable musl-fts support",
+      "active": false,
+      "dependencies": [
+        {
+          "port": "ProgrammingTools-Main",
+          "name": "Musl-Fts",
+          "version": ">=1.2.7",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
     }
   ],
   "uniqueDependencies": [["@ProgrammingTools-Main:Glibc","@ProgrammingTools-Main:Musl"]],
