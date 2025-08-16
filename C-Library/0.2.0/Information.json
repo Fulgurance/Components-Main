@@ -23,43 +23,21 @@
   "kernelDependencies": [],
   "options": [
     {
-      "name": "Argp-Standalone",
-      "description": "Enable argp-standalone support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Argp-Standalone",
-          "version": ">=1.5.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Musl-Locales",
-      "description": "Enable musl-locales support",
+      "name": "Pass1",
+      "description": "Enable the phase 1 of the cross toolchain building",
       "active": false,
       "dependencies": [
         {
           "port": "ProgrammingTools-Main",
-          "name": "Musl-Locales",
-          "version": ">=0.1.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Musl-Fts",
-      "description": "Enable musl-fts support",
-      "active": false,
-      "dependencies": [
+          "name": "Glibc",
+          "version": ">=0.0.0",
+          "options": ["Pass1"]
+        },
         {
           "port": "ProgrammingTools-Main",
-          "name": "Musl-Fts",
-          "version": ">=1.2.7",
-          "options": []
+          "name": "Musl",
+          "version": ">=0.0.0",
+          "options": ["Pass1"]
         }
       ],
       "kernelDependencies": []
