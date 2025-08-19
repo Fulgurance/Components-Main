@@ -1,0 +1,29 @@
+{
+  "port": "Components-Main",
+  "name": "C-Library-Obstack-Implementation",
+  "version": "0.1.0",
+  "architectures": ["x86_64"],
+  "description": "Virtual installer to set the default obstack implementation for the C library",
+  "website": "https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library-Obstack-implementation",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Glibc",
+      "version": ">=0.0.0",
+      "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Musl-Obstack",
+      "version": ">=0.0.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [["@ProgrammingTools-Main:Glibc","@ProgrammingTools-Main:Musl-Obstack"]],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
