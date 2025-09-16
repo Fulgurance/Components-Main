@@ -12,7 +12,7 @@
     {
       "name": "Openrc",
       "description": "Enable openrc support",
-      "active": true,
+      "active": false,
       "dependencies": [
         {
           "port": "InitSystems-Main",
