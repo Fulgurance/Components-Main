@@ -1,0 +1,25 @@
+PORT
+    Components-Main
+NAME
+    Bootloader
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default bootloader
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Bootloader
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Grub
+    description: Enable grub support
+    active: false
+    dependencies:
+        @Bootloaders-Main:Grub>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

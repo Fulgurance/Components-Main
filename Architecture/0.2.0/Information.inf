@@ -1,0 +1,20 @@
+PORT
+    Components-Main
+NAME
+    Architecture
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default architecture
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Architecture
+DEPENDENCIES
+        @ArchitectureComponents-Main:X86>=0.0.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+    @ArchitectureComponents-Main:X86
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

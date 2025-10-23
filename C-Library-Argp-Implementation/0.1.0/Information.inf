@@ -1,0 +1,21 @@
+PORT
+    Components-Main
+NAME
+    C-Library-Argp-Implementation
+VERSION
+    0.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default argp implementation for the C library
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library-Argp-implementation
+DEPENDENCIES
+        @ProgrammingTools-Main:Glibc>=0.0.0
+        @BaseLibraries-Main:Argp-Standalone>=0.0.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+    @ProgrammingTools-Main:Glibc,@BaseLibraries-Main:Argp-Standalone
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

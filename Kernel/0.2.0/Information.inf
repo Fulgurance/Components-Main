@@ -1,0 +1,22 @@
+PORT
+    Components-Main
+NAME
+    Kernel
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default kernel
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Kernel
+DEPENDENCIES
+        @Components-Main:Kernel-Sources>=0.0.0
+        @BaseLibraries-Main:Libelf>=0.0.0
+        @Utilities-Main:Bc>=0.0.0
+        @Archivers-Main:Cpio>=0.0.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

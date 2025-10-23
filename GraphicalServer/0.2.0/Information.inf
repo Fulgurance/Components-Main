@@ -1,0 +1,39 @@
+PORT
+    Components-Main
+NAME
+    GraphicalServer
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default graphical server
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/GraphicalServer
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Xorg-Server
+    description: Enable xorg-server support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xorg-Server>=0.0.0
+    kernelDependencies:
+
+    name: Xwayland
+    description: Enable xwayland support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xwayland>=0.0.0
+    kernelDependencies:
+
+    name: Wayland
+    description: Enable wayland support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Wayland-Protocols>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

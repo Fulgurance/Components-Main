@@ -1,0 +1,21 @@
+PORT
+    Components-Main
+NAME
+    Kernel-Sources
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default kernel sources
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Kernel-Sources
+DEPENDENCIES
+        @Kernels-Main:Linux-Kernel-Sources>=0.0.0
+        @Kernels-Main:Selinux-Kernel-Sources>=0.0.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+    @Kernels-Main:Linux-Kernel-Sources,@Kernels-Main:Selinux-Kernel-Sources
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

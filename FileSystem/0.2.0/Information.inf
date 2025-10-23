@@ -1,0 +1,67 @@
+PORT
+    Components-Main
+NAME
+    FileSystem
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default file systems
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/FileSystem
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Bcachefs-Progs
+    description: Enable bcachefs-progs support
+    active: false
+    dependencies:
+        @FileSystems-Main:Bcachefs-Progs>=0.0.0
+    kernelDependencies:
+
+    name: Btrfs-Progs
+    description: Enable btrsf-progs support
+    active: false
+    dependencies:
+        @FileSystems-Main:Btrfs-Progs>=0.0.0
+    kernelDependencies:
+
+    name: Dosfstools
+    description: Enable dosfstools support
+    active: false
+    dependencies:
+        @FileSystems-Main:Dosfstools>=0.0.0
+    kernelDependencies:
+
+    name: E2fsprogs
+    description: Enable e2fsprogs support
+    active: false
+    dependencies:
+        @FileSystems-Main:E2fsprogs>=0.0.0
+    kernelDependencies:
+
+    name: Lvm2
+    description: Enable lvm2 support
+    active: false
+    dependencies:
+        @FileSystems-Main:Lvm2>=0.0.0
+    kernelDependencies:
+
+    name: Ntfs-3g
+    description: Enable ntfs-3g support
+    active: false
+    dependencies:
+        @FileSystems-Main:Ntfs-3g>=0.0.0
+    kernelDependencies:
+
+    name: Squashfs-Tools
+    description: Enable squashfs support
+    active: false
+    dependencies:
+        @FileSystems-Main:Squashfs-Tools>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

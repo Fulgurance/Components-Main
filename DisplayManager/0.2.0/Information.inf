@@ -1,0 +1,32 @@
+PORT
+    Components-Main
+NAME
+    DisplayManager
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default DisplayManager
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/DisplayManager
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Display-Manager-Init
+    description: Enable display-manager-init support
+    active: true
+    dependencies:
+        @DisplayManagers-Main:Display-Manager-Init>=0.0.0
+    kernelDependencies:
+
+    name: Sddm
+    description: Enable sddm support
+    active: false
+    dependencies:
+        @DisplayManagers-Main:Sddm>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

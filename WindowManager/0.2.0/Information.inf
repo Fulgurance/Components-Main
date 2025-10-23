@@ -1,0 +1,32 @@
+PORT
+    Components-Main
+NAME
+    WindowManager
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default window manager
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/WindowManager
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: I3
+    description: Enable i3 support
+    active: false
+    dependencies:
+        @WindowManagers-Main:I3>=0.0.0
+    kernelDependencies:
+
+    name: Kwin
+    description: Enable kwin support
+    active: false
+    dependencies:
+        @KdeSoftwares-Main:Kwin>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

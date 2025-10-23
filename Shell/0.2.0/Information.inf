@@ -1,0 +1,25 @@
+PORT
+    Components-Main
+NAME
+    Shell
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default shell
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Shell
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Bash
+    description: Enable bash support
+    active: true
+    dependencies:
+        @Shells-Main:Bash>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

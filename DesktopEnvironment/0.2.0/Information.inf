@@ -1,0 +1,25 @@
+PORT
+    Components-Main
+NAME
+    DesktopEnvironment
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default desktop environment
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/DesktopEnvironment
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Plasma-Desktop
+    description: Enable plasma-desktop support
+    active: false
+    dependencies:
+        @KdeSoftwares-Main:Plasma-Desktop>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

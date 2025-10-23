@@ -1,0 +1,25 @@
+PORT
+    Components-Main
+NAME
+    Logger
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default system logger
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Init
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Sysklogd
+    description: Enable sysklogd support
+    active: true
+    dependencies:
+        @Utilities-Main:Sysklogd>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

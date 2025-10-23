@@ -1,0 +1,26 @@
+PORT
+    Components-Main
+NAME
+    Language
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default language
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Language
+DEPENDENCIES
+        @Components-Main:C-Library>=0.0.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: English
+    description: Enable english support
+    active: true
+    dependencies:
+        @LanguageComponents-Main:English>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

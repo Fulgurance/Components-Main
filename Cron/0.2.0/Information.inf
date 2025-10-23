@@ -1,0 +1,25 @@
+PORT
+    Components-Main
+NAME
+    Cron
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default cron
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Cron
+DEPENDENCIES
+KERNELDEPENDENCIES
+OPTIONS
+    name: Cronie
+    description: Enable cronie support
+    active: false
+    dependencies:
+        @Utilities-Main:Cronie>=1.7.2
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

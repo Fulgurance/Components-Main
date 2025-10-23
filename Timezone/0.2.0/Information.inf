@@ -1,0 +1,26 @@
+PORT
+    Components-Main
+NAME
+    Timezone
+VERSION
+    0.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Virtual installer to set the default timezone
+WEBSITE
+    https://github.com/Fulgurance/SystemBase-Main/tree/master/Timezone
+DEPENDENCIES
+        @SystemTimezones-Main:Tzdata>=0.0.0-20231221
+KERNELDEPENDENCIES
+OPTIONS
+    name: Europe
+    description: Enable europe support
+    active: true
+    dependencies:
+        @SystemTimezones-Main:Europe>=0.0.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
