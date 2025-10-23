@@ -11,8 +11,13 @@ DESCRIPTION
 WEBSITE
     https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library-Obstack-implementation
 DEPENDENCIES
-        @ProgrammingTools-Main:Glibc>=0.0.0
-        @ProgrammingTools-Main:Musl-Obstack>=0.0.0
+        if component("C-Library") selected "Glibc"
+            @ProgrammingTools-Main:Glibc>=0.0.0
+        end
+
+        if component("C-Library") selected "Musl"
+            @ProgrammingTools-Main:Musl-Obstack>=0.0.0
+        end
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

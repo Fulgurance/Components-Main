@@ -11,11 +11,15 @@ DESCRIPTION
 WEBSITE
     https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library-Fts-implementation
 DEPENDENCIES
-        @ProgrammingTools-Main:Glibc>=0.0.0
-        @ProgrammingTools-Main:Musl-Fts>=0.0.0
+        if component("C-Library") selected "Glibc"
+            @ProgrammingTools-Main:Glibc>=0.0.0
+        end
+
+        if component("C-Library") selected "Musl"
+            @ProgrammingTools-Main:Musl-Fts>=0.0.0
+        end
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES
-    @ProgrammingTools-Main:Glibc,@ProgrammingTools-Main:Musl-Fts
 UNIQUEOPTIONS
 ALLOWCODEPENDENCIES
