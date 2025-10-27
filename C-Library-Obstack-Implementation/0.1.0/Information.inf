@@ -11,11 +11,11 @@ DESCRIPTION
 WEBSITE
     https://github.com/Fulgurance/SystemBase-Main/tree/master/C-Library-Obstack-implementation
 DEPENDENCIES
-        if component("C-Library") selected "Glibc"
+        if component("@Components-Main:C-Library") selected "@ProgrammingTools-Main:Glibc"
             @ProgrammingTools-Main:Glibc>=0.0.0
         end
 
-        if component("C-Library") selected "Musl"
+        if component("@Components-Main:C-Library") selected "@ProgrammingTools-Main:Musl"
             @ProgrammingTools-Main:Musl-Obstack>=0.0.0
         end
 KERNELDEPENDENCIES
